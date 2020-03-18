@@ -4,7 +4,7 @@
 #
 Name     : perl-String-Format
 Version  : 1.18
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/S/SR/SREZIC/String-Format-1.18.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SR/SREZIC/String-Format-1.18.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libs/libstring-format-perl/libstring-format-perl_1.18-1.debian.tar.xz
@@ -79,7 +79,7 @@ make TEST_VERBOSE=1 test
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-String-Format
 cp %{_builddir}/String-Format-1.18/COPYING %{buildroot}/usr/share/package-licenses/perl-String-Format/68c94ffc34f8ad2d7bfae3f5a6b996409211c1b1
-cp %{_builddir}/String-Format-1.18/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-String-Format/a25df1e07d17dbf111d44f72f8748a9a936b84a9
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-String-Format/a25df1e07d17dbf111d44f72f8748a9a936b84a9
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -104,4 +104,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/String/Format.pm
+/usr/lib/perl5/vendor_perl/5.30.2/String/Format.pm
