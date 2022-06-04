@@ -4,7 +4,7 @@
 #
 Name     : perl-String-Format
 Version  : 1.18
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/S/SR/SREZIC/String-Format-1.18.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SR/SREZIC/String-Format-1.18.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libs/libstring-format-perl/libstring-format-perl_1.18-1.debian.tar.xz
@@ -104,4 +104,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/String/Format.pm
+/usr/lib/perl5/*
