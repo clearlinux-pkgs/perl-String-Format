@@ -7,7 +7,7 @@
 #
 Name     : perl-String-Format
 Version  : 1.18
-Release  : 28
+Release  : 29
 URL      : https://cpan.metacpan.org/authors/id/S/SR/SREZIC/String-Format-1.18.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SR/SREZIC/String-Format-1.18.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libs/libstring-format-perl/libstring-format-perl_1.18-1.debian.tar.xz
